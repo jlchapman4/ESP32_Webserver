@@ -82,7 +82,7 @@ void setup()
 {
   Serial.begin(115200);
 
-  //bool status;
+  bool status;
 
   status = bme.begin(0x76);   // BME280 sensors are usually set to address 0x76 or 0x77
   // If your BME280 sensor module has an SD0 pin, then:
